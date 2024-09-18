@@ -4,12 +4,12 @@ function Profile() {
   return (
     <section id="profile">
       <div className="section__pic-container">
-        <img src="" alt="David Profile Pic" />
+        <img src="/src/assets/dave1.jpg" alt="David Profile Pic" />
       </div>
       <div className="section__text">
         <p className="section__text__p1">Hello I'm</p>
         <h1 className="title">Dave Obat</h1>
-        <p className="section__text__p2">Software Developer</p>
+        <p className="section__text__p2">Software Developer <br />Student Engineer <br />Musician</p>
         <div className="btn-container">
           <button
             className="btn btn-color-2"

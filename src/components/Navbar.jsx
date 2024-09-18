@@ -14,7 +14,7 @@ function Navbar() {
         <div className='logo'>David Obat</div>
         <div>
             <ul className='nav-links'>
-                <li><a href="#About">About</a></li>
+                <li><a href="/about">About</a></li>
                 <li><a href="#Experience">Experience</a></li>
                 <li><a href="#Projects">Projects</a></li>
                 <li><a href="#Contact">Contact</a></li>
@@ -31,7 +31,7 @@ function Navbar() {
             <span></span>
         </div>
         <div className={`menu-links ${menuOpen ? 'open' : ''}`}>
-            <li><a href="#About" onClick={toggleMenu}>About</a></li>
+            <li><a href="/about" onClick={toggleMenu}>About</a></li>
             <li><a href="#Experience" onClick={toggleMenu}>Experience</a></li>
             <li><a href="#Projects" onClick={toggleMenu}>Projects</a></li>
             <li><a href="#Contact" onClick={toggleMenu}>Contact</a></li>
