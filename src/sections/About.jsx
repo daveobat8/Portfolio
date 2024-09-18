@@ -26,7 +26,7 @@ function About() {
               <img src="/src/assets/education.png" alt="education icon" className="icon" />
               <h3>Education</h3>
               <p>
-                B.Sc Civil Engineering <br /> Certificate in Software
+                B.Sc Civil Engineering(ongoing) <br /> Certificate in Software
                 Engineering
               </p>
             </div>

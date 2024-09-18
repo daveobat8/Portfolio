@@ -6,6 +6,7 @@ import Profile from './sections/Profile'
 import About from './sections/About'
 import { Route, Routes } from 'react-router-dom'
 import Experience from './sections/Experience'
+import Projects from './sections/Projects'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Profile />
       <About />
       <Experience />
+      <Projects />
 
       {/* <Routes>
         <Route path='/'></Route>
