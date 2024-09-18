@@ -31,10 +31,10 @@ function Navbar() {
             <span></span>
         </div>
         <div className={`menu-links ${menuOpen ? 'open' : ''}`}>
-            <li><a href="/about" onClick={toggleMenu}>About</a></li>
-            <li><a href="#Experience" onClick={toggleMenu}>Experience</a></li>
-            <li><a href="#Projects" onClick={toggleMenu}>Projects</a></li>
-            <li><a href="#Contact" onClick={toggleMenu}>Contact</a></li>
+            <li><a href="#about" onClick={toggleMenu}>About</a></li>
+            <li><a href="#experience" onClick={toggleMenu}>Experience</a></li>
+            <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
+            <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
         </div>
     </div>
     </nav>

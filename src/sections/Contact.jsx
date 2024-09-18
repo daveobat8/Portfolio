@@ -14,6 +14,11 @@ function Contact() {
                 <img src="/src/assets/linkedin.png" alt="linkedin icon" className='icon contact-icon'/>
                 <p><a href="#">obatdave@gmail.com</a></p>
             </div>
+            <div className='contact-info-container'>
+                <img src="/src/assets/phone.png" alt="phone icon" className='icon contact-icon'/>
+                <p><a>+254 734 639 159</a></p>
+                <p><a>+254 110 945 414</a></p>
+            </div>
         </div>
     </section>
   )
