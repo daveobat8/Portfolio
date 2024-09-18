@@ -14,10 +14,10 @@ function Navbar() {
         <div className='logo'>David Obat</div>
         <div>
             <ul className='nav-links'>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
         </div>
 
@@ -31,10 +31,10 @@ function Navbar() {
             <span></span>
         </div>
         <div className={`menu-links ${menuOpen ? 'open' : ''}`}>
-            <li><a href="#" onClick={toggleMenu}>About</a></li>
-            <li><a href="#" onClick={toggleMenu}>Experience</a></li>
-            <li><a href="#" onClick={toggleMenu}>Projects</a></li>
-            <li><a href="#" onClick={toggleMenu}>Contact</a></li>
+            <li><a href="#About" onClick={toggleMenu}>About</a></li>
+            <li><a href="#Experience" onClick={toggleMenu}>Experience</a></li>
+            <li><a href="#Projects" onClick={toggleMenu}>Projects</a></li>
+            <li><a href="#Contact" onClick={toggleMenu}>Contact</a></li>
         </div>
     </div>
     </nav>

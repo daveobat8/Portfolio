@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import './Mediaqueries.css'
 import Navbar from './components/Navbar'
+import Profile from './sections/Profile'
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <Profile />
     </>
   )
 }
