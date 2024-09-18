@@ -14,7 +14,7 @@ function Navbar() {
         <div className='logo'>David Obat</div>
         <div>
             <ul className='nav-links'>
-                <li><a href="/about">About</a></li>
+                <li><a href="#About">About</a></li>
                 <li><a href="#Experience">Experience</a></li>
                 <li><a href="#Projects">Projects</a></li>
                 <li><a href="#Contact">Contact</a></li>
