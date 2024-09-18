@@ -19,7 +19,7 @@ function Profile() {
           </button>
           <button
             className="btn btn-color-1"
-            onClick={() => (window.location.hash = "#Contact")}
+            onClick={() => (window.location.hash = "#contact")}
           >
             Contact Me
           </button>

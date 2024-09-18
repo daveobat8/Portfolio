@@ -7,6 +7,8 @@ import About from './sections/About'
 import { Route, Routes } from 'react-router-dom'
 import Experience from './sections/Experience'
 import Projects from './sections/Projects'
+import Contact from './sections/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <About />
       <Experience />
       <Projects />
+      <Contact />
+      <Footer />
 
       {/* <Routes>
         <Route path='/'></Route>

@@ -129,7 +129,7 @@ function Experience() {
           </div>
         </div>
       </div>
-      <img src="/src/assets/arrow.png" alt="arrow" className="icon arrow" onClick="go to experience section"/>
+      <img src="/src/assets/arrow.png" alt="arrow" className="icon arrow" onClick={() => (window.location.hash = "#projects")}/>
     </section>
   );
 }
