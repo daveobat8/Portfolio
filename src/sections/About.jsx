@@ -8,7 +8,7 @@ function About() {
       <div className="section-container">
         <div className="section__pic-container">
           <img
-            src="/public/assets/Dave.jpg"
+            src="Dave.jpg"
             alt="profile pic"
             className="about-pic"
           />
@@ -16,14 +16,14 @@ function About() {
         <div className="about-details-container">
           <div className="about-containers">
             <div className="details-container">
-              <img src="/public/assets/experience.png" alt="experience icon" className="icon" />
+              <img src="experience.png" alt="experience icon" className="icon" />
               <h3>Experience</h3>
               <p>
                 6 months <br /> Software Developer
               </p>
             </div>
             <div className="details-container">
-              <img src="/public/assets/education.png" alt="education icon" className="icon" />
+              <img src="education.png" alt="education icon" className="icon" />
               <h3>Education</h3>
               <p>
                 B.Sc Civil Engineering(ongoing) <br /> Certificate in Software
@@ -44,7 +44,7 @@ function About() {
           </div>
         </div>
       </div>
-      <img src="/public/assets/arrow.png" alt="arrow" className="icon arrow" onClick={() => (window.location.hash = "#experience")}/>
+      <img src="arrow.png" alt="arrow" className="icon arrow" onClick={() => (window.location.hash = "#experience")}/>
     </section>
   );
 }

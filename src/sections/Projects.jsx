@@ -9,7 +9,7 @@ function Projects() {
         <div className="about-containers">
           <div className="details-container color-container">
           <div className="article-container">
-            <img src="/public/assets/project1.png" alt="project 1" className="project-img" />
+            <img src="project1.png" alt="project 1" className="project-img" />
           </div>
           <h2 className="experience-sub-title project-title">Project One</h2>
           <div className="btn-container">
@@ -33,7 +33,7 @@ function Projects() {
           </div>
           <div className="details-container color-container">
           <div className="article-container">
-            <img src="/public/assets/project1.png" alt="project 2" className="project-img" />
+            <img src="project1.png" alt="project 2" className="project-img" />
           </div>
           <h2 className="experience-sub-title project-title">Project Two</h2>
           <div className="btn-container">
@@ -57,7 +57,7 @@ function Projects() {
           </div>
           <div className="details-container color-container">
           <div className="article-container">
-            <img src="/public/assets/project1.png" alt="project 3" className="project-img" />
+            <img src="project1.png" alt="project 3" className="project-img" />
           </div>
           <h2 className="experience-sub-title project-title">Project Three</h2>
           <div className="btn-container">
@@ -81,7 +81,7 @@ function Projects() {
           </div>
         </div>
       </div>
-      <img src="/public/assets/arrow.png" alt="arrow" className="icon arrow" onClick={() => (window.location.hash = "#contact")}/> 
+      <img src="arrow.png" alt="arrow" className="icon arrow" onClick={() => (window.location.hash = "#contact")}/> 
     </section>
   );
 }
