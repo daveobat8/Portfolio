@@ -4,9 +4,9 @@
     margin-bottom: 6rem;
   }
 
-  .about-containers {
+  /* .about-containers {
     flex-wrap: wrap;
-  }
+  } */
 }
 
 @media screen and (max-width: 1200px) {
@@ -20,10 +20,11 @@
   .experience-details-container {
     margin-top: 2rem;
   }
-
+  
   #profile,
   .section-container {
     display: block;
+    margin-bottom: 6rem;
   }
 
   .arrow {
@@ -48,13 +49,15 @@
 
   .about-containers {
     margin-top: 0;
+    flex-wrap: wrap;
   }
 }
 
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 40vh;
+    height: 42vh;
+    margin-top: 2rem;
   }
   #profile {
     height: 83vh;
@@ -66,6 +69,7 @@
   footer nav {
     height: fit-content;
     margin-bottom: 2rem;
+    margin-top: 3rem;
   }
   .about-containers,
   .contact-info-upper-container,

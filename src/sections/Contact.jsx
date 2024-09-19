@@ -7,17 +7,20 @@ function Contact() {
         <h1 className='title'>Contact Me</h1>
         <div className='contact-info-upper-container'>
             <div className='contact-info-container'>
-                <img src="/src/assets/email.png" alt="email icon" className='icon contact-icon'/>
+                <img src="/public/assets/email.png" alt="email icon" className='icon contact-icon'/>
                 <p><a href="mailto:examplemail@gmail.com">obatdave@gmail.com</a></p>
             </div>
             <div className='contact-info-container'>
-                <img src="/src/assets/linkedin.png" alt="linkedin icon" className='icon contact-icon'/>
+                <img src="/public/assets/linkedin.png" alt="linkedin icon" className='icon contact-icon'/>
                 <p><a href="#">obatdave@gmail.com</a></p>
             </div>
             <div className='contact-info-container'>
-                <img src="/src/assets/phone.png" alt="phone icon" className='icon contact-icon'/>
-                <p><a>+254 734 639 159</a></p>
-                <p><a>+254 110 945 414</a></p>
+                <img src="/public/assets/whatsapp.png" alt="phone icon" className='icon contact-icon'/>
+                <p><a>+254734639159</a></p>
+            </div>
+            <div className='contact-info-container'>
+                <img src="/public/assets/phone.png" alt="phone icon" className='icon contact-icon'/>
+                <p><a>+254110945414</a></p>
             </div>
         </div>
     </section>

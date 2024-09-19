@@ -12,7 +12,7 @@ function Experience() {
             <div className="article-container">
               <article>
                 <img
-                  src="/src/assets/checkmark.png"
+                  src="/public/assets/checkmark.png"
                   alt="experience-icon"
                   className="icon"
                 />
@@ -23,7 +23,7 @@ function Experience() {
               </article>
               <article>
                 <img
-                  src="/src/assets/checkmark.png"
+                  src="/public/assets/checkmark.png"
                   alt="experience-icon"
                   className="icon"
                 />
@@ -34,7 +34,7 @@ function Experience() {
               </article>
               <article>
                 <img
-                  src="/src/assets/checkmark.png"
+                  src="/public/assets/checkmark.png"
                   alt="experience-icon"
                   className="icon"
                 />
@@ -45,7 +45,7 @@ function Experience() {
               </article>
               <article>
                 <img
-                  src="/src/assets/checkmark.png"
+                  src="/public/assets/checkmark.png"
                   alt="experience-icon"
                   className="icon"
                 />
@@ -56,7 +56,7 @@ function Experience() {
               </article>
               <article>
                 <img
-                  src="/src/assets/checkmark.png"
+                  src="/public/assets/checkmark.png"
                   alt="experience-icon"
                   className="icon"
                 />
@@ -67,7 +67,7 @@ function Experience() {
               </article>
               <article>
                 <img
-                  src="/src/assets/checkmark.png"
+                  src="/public/assets/checkmark.png"
                   alt="experience-icon"
                   className="icon"
                 />
@@ -83,7 +83,7 @@ function Experience() {
             <div className="article-container">
               <article>
                 <img
-                  src="/src/assets/checkmark.png"
+                  src="/public/assets/checkmark.png"
                   alt="experience-icon"
                   className="icon"
                 />
@@ -94,7 +94,7 @@ function Experience() {
               </article>
               <article>
                 <img
-                  src="/src/assets/checkmark.png"
+                  src="/public/assets/checkmark.png"
                   alt="experience-icon"
                   className="icon"
                 />
@@ -105,7 +105,7 @@ function Experience() {
               </article>
               <article>
                 <img
-                  src="/src/assets/checkmark.png"
+                  src="/public/assets/checkmark.png"
                   alt="experience-icon"
                   className="icon"
                 />
@@ -116,7 +116,7 @@ function Experience() {
               </article>
               <article>
                 <img
-                  src="/src/assets/checkmark.png"
+                  src="/public/assets/checkmark.png"
                   alt="experience-icon"
                   className="icon"
                 />
@@ -129,7 +129,7 @@ function Experience() {
           </div>
         </div>
       </div>
-      <img src="/src/assets/arrow.png" alt="arrow" className="icon arrow" onClick={() => (window.location.hash = "#projects")}/>
+      <img src="/public/assets/arrow.png" alt="arrow" className="icon arrow" onClick={() => (window.location.hash = "#projects")}/>
     </section>
   );
 }

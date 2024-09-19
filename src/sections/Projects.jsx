@@ -7,9 +7,9 @@ function Projects() {
       <h1 className="title">Projects</h1>
       <div className="experience-details-container">
         <div className="about-containers">
-        <div className="details-container color-container">
+          <div className="details-container color-container">
           <div className="article-container">
-            <img src="" alt="project 1" className="project-img" />
+            <img src="/public/assets/project1.png" alt="project 1" className="project-img" />
           </div>
           <h2 className="experience-sub-title project-title">Project One</h2>
           <div className="btn-container">
@@ -30,10 +30,10 @@ function Projects() {
               Live Demo
             </button>
           </div>
-        </div>
-        <div className="details-container color-container">
+          </div>
+          <div className="details-container color-container">
           <div className="article-container">
-            <img src="" alt="project 2" className="project-img" />
+            <img src="/public/assets/project1.png" alt="project 2" className="project-img" />
           </div>
           <h2 className="experience-sub-title project-title">Project Two</h2>
           <div className="btn-container">
@@ -54,10 +54,10 @@ function Projects() {
               Live Demo
             </button>
           </div>
-        </div>
-        <div className="details-container color-container">
+          </div>
+          <div className="details-container color-container">
           <div className="article-container">
-            <img src="" alt="project 3" className="project-img" />
+            <img src="/public/assets/project1.png" alt="project 3" className="project-img" />
           </div>
           <h2 className="experience-sub-title project-title">Project Three</h2>
           <div className="btn-container">
@@ -78,10 +78,10 @@ function Projects() {
               Live Demo
             </button>
           </div>
-        </div>
+          </div>
         </div>
       </div>
-      <img src="/src/assets/arrow.png" alt="arrow" className="icon arrow" onClick={() => (window.location.hash = "#contact")}/> 
+      <img src="/public/assets/arrow.png" alt="arrow" className="icon arrow" onClick={() => (window.location.hash = "#contact")}/> 
     </section>
   );
 }
